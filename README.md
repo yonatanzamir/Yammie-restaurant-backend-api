@@ -16,7 +16,6 @@ Backend API for manage restaurant orders
 - server.js : Responsible for starting the server.
 - app.js : Configure everything that has to do with Express application, Contain callback functions that corresponds to the routers to handle requests.
 - models : init DB configuration, order database scheme, validating order input data
-- .env : for Enviroment Varaiables
 - services: contain the majority of the business logic
 - errors, middleware :  Responsible for error system
 
@@ -28,7 +27,7 @@ Path | Method | Description
 /order/:id | GET | GetSpecficOrder
 /order/:id | PUT | ChangeSpecficOrder
 /add-new-order | POST | CreateNewOrder
-
+*time can be: {"last-day","last-week","last-month"}
 
 ## Usage
 
