@@ -41,12 +41,6 @@ npm install
 npm start
 ```
 
-* Run f5 or type this command from the terminal:
-  
-```bash
- node .\src\server.js
-```
-
 
 
 
