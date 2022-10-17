@@ -27,7 +27,8 @@ Path | Method | Description
 /order/:id | GET | GetSpecficOrder
 /order/:id | PUT | ChangeSpecficOrder
 /add-new-order | POST | CreateNewOrder
-*time can be: {"last-day","last-week","last-month"}
+
+* time can be: {"last-day","last-week","last-month"}
 
 ## Usage
 
