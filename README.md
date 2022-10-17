@@ -25,8 +25,8 @@ Backend API for manage restaurant orders
 Path | Method | Description
 ---|---|---
 /all-order/:time | GET | ListOrderFromPeriodTime
-/order/id | GET | GetSpecficOrder
-/order/id | PUT | ChangeSpecficOrder
+/order/:id | GET | GetSpecficOrder
+/order/:id | PUT | ChangeSpecficOrder
 /add-new-order | POST | CreateNewOrder
 
 
