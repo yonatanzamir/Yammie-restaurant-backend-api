@@ -36,6 +36,7 @@ Path | Method | Description
 
 ```bash
 git clone https://github.com/yonatanzamir/Yammie-restaurant-backend-api/
+cd Yammie-restaurant-backend-api/
 npm install
 npm start
 ```
