@@ -4,7 +4,7 @@ const { Op } = require('sequelize');
 const ErrorWithStatusCode = require('../errors/ErrorWithStatusCode');
 const { adjustTimePattern } = require("../utils/dateParser");
 const { validateNewOrder, createOrderScheme } = require("../model/orederValidation");
-const Joi = require('joi');
+
 
 
 
